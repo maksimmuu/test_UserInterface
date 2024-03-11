@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Professional/Desktop/TQ2/m.yutelis">
+        <classes>
+            <class name="org.tests.TestCaseEnterUserData">
+                <methods>
+                    <include name="testEnterUserData"/>
+                </methods>
+            </class>
+            <class name="org.tests.TestCaseCloseHelpForm">
+                <methods>
+                    <include name="testCloseHelpForm"/>
+                </methods>
+            </class>
+            <class name="org.tests.TestCaseCookiesAccept">
+                <methods>
+                    <include name="testCookiesAccept"/>
+                </methods>
+            </class>
+            <class name="org.tests.TestCaseTimerCheckStartTime">
+                <methods>
+                    <include name="testTimerCheckStartTime"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
